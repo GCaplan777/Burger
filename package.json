@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "handlebars-helper-css": "^0.1.0",
-    "nodemon": "^2.0.4"
+
   }
 
 }
