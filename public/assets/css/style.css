@@ -1,7 +1,12 @@
+* {
+  background-color: whitesmoke;
+}
+
 li {
   padding: 5px;
   margin: 5px;
   background: #faebd7;
+  width: 60%;
 }
 
 .label {

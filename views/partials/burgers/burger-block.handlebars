@@ -1,8 +1,14 @@
 <li>
-	{{name}}
-	{{#unless devoured}}
-	<button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
-		Devour
-	</button>
-	{{/unless}}
+	<div class="text-left" style="float:left">
+		{{name}}
+	</div>
+	<div class="text-right" style="float:right">
+		{{#unless devoured}}
+		<button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
+			Devour
+		</button>
+		{{/unless}}
+	</div>
+
+
 </li>

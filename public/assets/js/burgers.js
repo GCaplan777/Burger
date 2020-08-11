@@ -3,7 +3,7 @@ $(function () {
   $(".change-devoured").on("click", function (event) {
     // on click gets the ID of the burger clicked
     var id = $(this).data("id");
-    // set the bureger clicked to be devoured
+    // set the burger clicked to be devoured
     var newDevoured = $(this).data("newdevoured");
     console.log("newDevoured = ", newDevoured);
 
@@ -16,7 +16,7 @@ $(function () {
       type: "PUT",
       data: newDevouredState,
     }).then(function () {
-      console.log("changed devoure d to", newDevouredState);
+      console.log("changed devoured to", newDevouredState);
       // Reload the page to get the updated list
       location.reload();
     });
@@ -28,7 +28,7 @@ $(function () {
 
     var newBurger = {
       name: $("#ca").val().trim(),
-      devoured: $("[name=devoured]:checked").val().trim(),
+      devoured: $("devoured").val(),
     };
 
     // Send the POST request.
