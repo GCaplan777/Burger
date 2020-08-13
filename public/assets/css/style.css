@@ -1,5 +1,7 @@
-* {
-  background-color: whitesmoke;
+.text-center {
+  background-color: goldenrod;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+
 }
 
 li {
